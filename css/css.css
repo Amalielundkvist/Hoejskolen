@@ -3,6 +3,21 @@
  * purpose: styling
  **/
 
+
+/* Fonte(skrifttyper) placeres øverst */
+
+/* Farvepallette */
+:root {
+  --Overskrift: 
+  --Tekst: #000;
+  --Kontrast1: #2596be;
+  --Kontrast2: #714d4d;
+  --kontrast3: #2d6d39bd;
+  --kontrast4: #91edfb;
+  --kontrast5: #0fa428;
+  --Pang: #ffcf4b;
+}
+
 /* Remove whitespace on top of certain browsers */
 * {
   margin: 0;
@@ -11,7 +26,10 @@
 }
 */for at lave krøllet parantes skla man trykker shift og option og så enten 8 eller 9 alt efter hvilken krøllet parantes man vil have.*/
 
+/*Gennerelle indstillinger*/
+
 body{
+
   background-color:rgb(0, 0, 0);
 }
 
@@ -28,11 +46,37 @@ p{
   padding: 23px;
 }
 
+/* Styles til navigation */
+
+/* Sticky navigation */
+nav {
+  position: sticky;
+  top: 0;
+  color: var(--Kontrast1);/*color: er altid skriftens farve*/
+  background-color: var(--kontrast3);/*background-color: er altid baggrundsfarven*/
+}
+
+nav a {
+  color: var(--Pang);
+}
+
+/* Gør logo mindre */
+nav a img {
+  width: auto;
+  height: 99px;
+}
+
+
+.flexdemo{
+display: flex;
+padding: 25 px;
+}
+
 /* Use your variables on elements along these lines */
-/*
+
 :root {
-  --contrast: lime;
-  --backgr: #000;
+  --contrast: rgba(161, 226, 161, 0.667);
+  --backgr: #694848;
 }
 
 --- You can use the variables like this ---
