@@ -1,0 +1,44 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Remove whitespace on top of certain browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/for at lave krøllet parantes skla man trykker shift og option og så enten 8 eller 9 alt efter hvilken krøllet parantes man vil have.*/
+
+body{
+  background-color:rgb(0, 0, 0);
+}
+
+img{
+  width: 100%;
+}
+
+h1,
+{
+  text-align: center;
+}
+
+p{
+  padding: 23px;
+}
+
+/* Use your variables on elements along these lines */
+/*
+:root {
+  --contrast: lime;
+  --backgr: #000;
+}
+
+--- You can use the variables like this ---
+
+ main {
+   color: var(--contrast);
+   background-color: var(--backgr);
+ }
+*/
